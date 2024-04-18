@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:windowBackground">#ffbd11</item>
+        <item name="android:statusBarColor">#ffbd11</item>
+
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+
+    <style name="BTNPRIMARIO">
+        <item name="android:backgroundTint">#ffbd11</item>
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+    </style>
+
+</resources>
