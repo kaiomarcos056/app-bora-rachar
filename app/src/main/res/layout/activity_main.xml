@@ -39,13 +39,16 @@
         <EditText
             android:id="@+id/qtdPessoas"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/black"
+            android:drawableTint="@color/black"
             android:ems="10"
             android:fontFamily="@font/open_sans_semibold"
             android:hint="Quantidade de pessoas"
             android:inputType="number"
             android:textColor="#000000"
-            android:textColorHint="#B8B4B4"
+            android:textColorHint="#000000"
+            android:textColorLink="#000000"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -80,23 +83,25 @@
         <EditText
             android:id="@+id/valorTotal"
             android:layout_width="wrap_content"
-            android:layout_height="64dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/black"
             android:ems="10"
             android:fontFamily="@font/open_sans_semibold"
             android:hint="Valor da conta"
             android:inputType="numberDecimal"
             android:textColor="#000"
-            android:textColorHint="#B8B4B4"
+            android:textColorHint="#000000"
+            android:textColorLink="#040404"
             android:textSize="20sp" />
     </LinearLayout>
 
     <Button
         android:id="@+id/falarValor"
         android:layout_width="wrap_content"
-        android:layout_height="64dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:height="64dp"
         android:text="Falar Valor"
-        android:textColorLink="#FFBD11"
         android:textSize="20sp"
         app:icon="@drawable/falar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,19 +127,24 @@
 
     <Button
         android:id="@+id/compartilhar"
+        style="@style/BTNPRIMARIO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:height="64dp"
+        android:drawableTintMode="src_in"
+        android:foregroundTint="@color/black"
+        android:foregroundTintMode="src_in"
         android:text="Compartilhar"
+        android:textColorLink="#000000"
         android:textSize="20sp"
+        android:tint="@color/black"
+        android:tintMode="src_in"
         app:icon="@drawable/compartilhar"
         app:layout_constraintEnd_toStartOf="@+id/falarValor"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/valorDividido"
-        style="@style/BTNPRIMARIO"
-    />
+        app:layout_constraintTop_toBottomOf="@+id/valorDividido" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
