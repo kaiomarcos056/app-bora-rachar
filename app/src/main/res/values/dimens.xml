@@ -1,0 +1,29 @@
+<resources>
+    <!-- TAMANHO DAS FONTES -->
+    <dimen name="text_size_xsmall">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">20sp</dimen>
+    <dimen name="text_size_xxxlarge">24sp</dimen>
+    <dimen name="text_size_huge">28sp</dimen>
+    <dimen name="text_size_xhuge">32sp</dimen>
+    <dimen name="text_size_xxhuge">36sp</dimen>
+
+    <!-- TAMANHO DAS MARGENS -->
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">40dp</dimen>
+    <dimen name="margin_huge">48dp</dimen>
+    <dimen name="margin_xhuge">56dp</dimen>
+    <dimen name="margin_xxhuge">64dp</dimen>
+
+
+    <dimen name="image_width">200dp</dimen>
+    <dimen name="content_margem_top">150dp</dimen>
+    <dimen name="icone_tamanho">40dp</dimen>
+</resources>

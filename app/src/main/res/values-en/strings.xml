@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">To Go Dutch</string>
+    <string name="qtdPessoas">number of people</string>
+    <string name="vlrConta">value of bill</string>
+    <string name="btnFalarValor">Talk Value</string>
+    <string name="btnCompartilhar">Share</string>
+    <string name="tipoMoeda">$</string>
+</resources>
